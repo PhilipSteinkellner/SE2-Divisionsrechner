@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Divisionsrechner</string>
+    <string name="edit_divident">Divident</string>
+    <string name="edit_divisor">Divisor</string>
+    <string name="edit_button">Dividiere!</string>
+    <string name="edit_ausgabe">Ausgabe</string>
 </resources>
