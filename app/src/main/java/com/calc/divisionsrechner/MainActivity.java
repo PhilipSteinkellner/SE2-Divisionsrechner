@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(View v) {
 
                         TextView output = (TextView) findViewById(R.id.output);
-                        TextView divident = (TextView) findViewById(R.id.divident);
-                        TextView divisor = (TextView) findViewById(R.id.divisor);
+                        EditText divident = (EditText) findViewById(R.id.divident);
+                        EditText divisor = (EditText) findViewById(R.id.divisor);
 
                         //Exception handling if either divident or divisor field is empty
                         if (divident.getText().toString().trim().length() == 0 ||
